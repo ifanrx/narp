@@ -36,7 +36,7 @@
     "gettext-parser": "^1.1.2",
     "got": "^7.1.0",
     "mkdirp": "^0.5.1",
-    "pot-merge": "^2.1.0",
+    "pot-merge": "github:ifanrx/pot-merge",
     "qs": "^6.5.0",
     "react-gettext-parser": "^1.0.0",
     "read": "^1.0.7",
