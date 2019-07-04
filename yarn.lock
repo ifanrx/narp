@@ -2317,9 +2317,9 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-"react-gettext-parser@github:ifanrx/react-gettext-parser#ab66bf20938b06e9d78c3aab539f829cbedc0752":
+"react-gettext-parser@github:ifanrx/react-gettext-parser#a305b618c6bd32f5e121625c0e62970a7b064029":
   version "1.9.1"
-  resolved "https://codeload.github.com/ifanrx/react-gettext-parser/tar.gz/ab66bf20938b06e9d78c3aab539f829cbedc0752"
+  resolved "https://codeload.github.com/ifanrx/react-gettext-parser/tar.gz/a305b618c6bd32f5e121625c0e62970a7b064029"
   dependencies:
     "@babel/parser" "^7.3.4"
     "@babel/traverse" "^7.3.4"
