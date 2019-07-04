@@ -80,6 +80,10 @@
     lodash "^4.17.11"
     to-fast-properties "^2.0.0"
 
+"@types/node@*":
+  version "12.0.12"
+  resolved "https://registry.yarnpkg.com/@types/node/-/node-12.0.12.tgz#cc791b402360db1eaf7176479072f91ee6c6c7ca"
+
 abbrev@1:
   version "1.1.1"
   resolved "http://registry.npm.taobao.org/abbrev/download/abbrev-1.1.1.tgz#f8f2c887ad10bf67f634f005b6987fed3179aac8"
@@ -2198,6 +2202,12 @@ parse-json@^2.2.0:
   dependencies:
     error-ex "^1.2.0"
 
+parse5@^3.0.3:
+  version "3.0.3"
+  resolved "https://registry.yarnpkg.com/parse5/-/parse5-3.0.3.tgz#042f792ffdd36851551cf4e9e066b3874ab45b5c"
+  dependencies:
+    "@types/node" "*"
+
 path-exists@^2.0.0:
   version "2.1.0"
   resolved "http://registry.npm.taobao.org/path-exists/download/path-exists-2.1.0.tgz#0feb6c64f0fc518d9a754dd5efb62c7022761f4b"
@@ -2307,9 +2317,9 @@ rc@^1.1.7:
     minimist "^1.2.0"
     strip-json-comments "~2.0.1"
 
-"react-gettext-parser@github:ifanrx/react-gettext-parser":
+"react-gettext-parser@github:ifanrx/react-gettext-parser#ab66bf20938b06e9d78c3aab539f829cbedc0752":
   version "1.9.1"
-  resolved "https://codeload.github.com/ifanrx/react-gettext-parser/tar.gz/227bb912b4e1389e7557e3cd644baea127d10f51"
+  resolved "https://codeload.github.com/ifanrx/react-gettext-parser/tar.gz/ab66bf20938b06e9d78c3aab539f829cbedc0752"
   dependencies:
     "@babel/parser" "^7.3.4"
     "@babel/traverse" "^7.3.4"
@@ -2322,6 +2332,7 @@ rc@^1.1.7:
     lodash.groupby "^4.3.0"
     lodash.uniq "^4.2.1"
     through2 "^2.0.1"
+    vue-parser "^1.1.6"
     yargs "^4.4.0"
 
 read-pkg-up@^1.0.1:
@@ -2839,6 +2850,12 @@ vinyl@^0.5.0:
     clone "^1.0.0"
     clone-stats "^0.0.1"
     replace-ext "0.0.1"
+
+vue-parser@^1.1.6:
+  version "1.1.6"
+  resolved "https://registry.yarnpkg.com/vue-parser/-/vue-parser-1.1.6.tgz#3063c8431795664ebe429c23b5506899706e6355"
+  dependencies:
+    parse5 "^3.0.3"
 
 which-module@^1.0.0:
   version "1.0.0"
