@@ -1,5 +1,7 @@
 # narp ![narp](narp.png)
 
+> 已支持 .vue 文件 script 标签中的翻译文本（不支持 template 标签中的翻译文本）。
+
 A workflow utility to ease localization in JS(X) apps by automizing the following steps:
 
 **`narp push`**
